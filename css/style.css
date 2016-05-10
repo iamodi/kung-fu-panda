@@ -442,10 +442,10 @@ iframe {
 /* Navigation* ------------------------------ */
 
 .nav {
-	width: 1000px;
-	position: absolute;
-	left: 50%;
-	margin-left: -500px;
+	width: 100%;
+	 position: absolute;
+	/*left: 50%;
+	margin-left: -500px;*/
 	z-index: 999;
 }
 
@@ -490,7 +490,7 @@ iframe {
 .scroll {
 	position: absolute;
 	background-image: url("../images/menu.png");
-	width: 1000px;
+	width: 100%;
 	height: 70px;
 	margin-top: 22px;
 }
@@ -677,35 +677,229 @@ h1 {
     font-weight: 300;
 }
 
+.footer p {
+	font-family: arial;
+	background: black;
+	text-align: center;
+	color: white;
+	font-size: 11px;
+	padding: 9px;
+}
+
 
 /* Media query mobile screen
 ------------------------------------------*/
 @media screen and (max-width: 600px) {
 	.gang {
-	width: 500px;
+	width: 320px;
 	}
 
 	.panda img{
-	width: 380px;
+	width: 280px;
 	position: relative;
-	left: 300px;
+	left: 355px;
 	}
 
 	.tigeress {
-    left: 0;
+    left: 59px;
     }
 
     .tigeress img {
-    	width: 400px;
+    	width: 314px;
     	position: relative;
-    	left: 50px;
-
+    	left: 113px;
     }
 
-body
+    .monkey img{
+    	width: 280px;
+    	position: relative;
+    	left: 164px;
+    }
+
+    .vaper img{
+    	width: 120px;
+    	position: relative;
+    	left: 231px;
+    }
+	
+	
+    .crane img {
+        width: 318px;
+		position: relative;
+		left: 369px;
+		bottom: -210px;
+    }
+
+    .mantis img {
+    	width: 314px;
+    	position: relative;
+    	left: 113px;
+    }
+
+
+	.nav {
+		/*max-width: 375px;*/
+		height: auto;
+		margin-left: 0px;
+		left: 0;
+
+	}
+
+    .scroll {
+    	/*max-width: 375px;*/
+    	height: 113px;
+    	background-image: url("../images/mobile_menu.png");
+		margin-top: 0;
+    } 
+
+   
+    span {
+	    position: relative;
+	    left: 6px;
+	    top: 68px;
+	}
+
+    .ls, .rs {
+    	top: 20px;
+    }
+
+    #menu li { 
+	    padding-right: 7px;
+    }
+
+    .trailer {
+    	visibility: hidden;
+    }
+
+    .slide img {
+    	max-width: 50%;
+	    margin-bottom: -7px;
+    }
+
+    .slide p {
+	    font-size: 16px;
+		padding: 5px 7px 5px 7px;
+		bottom: 0;
+    }
+
+    .intro {
+    	left: 20px;
+        top: 132px;
+        width: 338px;
+    }
+
+    .intro h1 {
+    	font-size: 30px;
+    }
+
+	.intro p {
+		font-size: 16px
+	}
+
+	.moji {
+		width: 500px;
+		bottom: -156px;
+	}
+
+	.ch_panda {
+		bottom: 67px;
+		left: 260px;
+		width: 102px;
+	}
+
+    .ch_tigeress {
+	    bottom: 93px;
+	    left: 171px;
+	    width: 102px;
+    }
+
+    .ch_monkey {
+	    bottom: 93px;
+	    left: 111px;
+	    width: 102px;
+    }
+
+    .ch_viper {
+	    bottom: 115px;
+	    left: 47px;
+	    width: 77px;
+    }
+
+    .ch_crane {
+	    position: absolute;
+	    bottom: 432px;
+	    left: 230px;
+	    width: 120px;
+    }
+
+    .ch_mantis {
+	    bottom: 123px;
+	    left: 20px;
+	    width: 35px;
+    }
+
+    #section3 {
+		background-position: top left;
 
 }
 
+@media screen and (max-width:950px) {
+		#menu img {
+			width: 0px;
+	}
+
+	span {
+		position: relative;
+		left: 6px;
+		top: 68px;
+    }
+
+    #quiz {
+    	
+    	left:0px;
+    }
+
+    .question {
+    	margin-left: 0px;
+    	max-width: 340px;
+    	padding-left: 20px;
+    	font-size: 14px;
+    }
+
+    .answer2 {
+    	min-height: 25px;
+    	padding-top: 0px;
+
+    }
+
+    .questiong-5{
+    	visibility: hidden;
+    }
+
+    #results {
+		margin-bottom: 40px;
+    }
+
+    #results img {
+    	margin-left: 77px;
+    	bottom: 50px;
+    }
+
+    #yougot {
+    	left: 8px;
+        bottom: -40px;
+    }
+
+    
+    @media screen and (max-width: 600px) {
+}
+
+
+@media (min-width: 950px) and (max-width: 1026px) {
+	.crane {
+         bottom: 454px;
+    }
+}
 
 
 
